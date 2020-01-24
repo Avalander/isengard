@@ -18,7 +18,7 @@ module.exports = db => {
     },
     avatar: {
       type: Sequelize.STRING,
-    }
+    },
   }, {
     underscored: true,
   })
@@ -41,8 +41,8 @@ module.exports = db => {
         model: Pony,
         key: 'id',
         deferrable: Sequelize.Deferrable.INITIALLY_IMMEDIATE,
-      }
-    }
+      },
+    },
   }, {
     underscored: true,
   })
